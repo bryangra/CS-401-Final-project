@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 
 import csueb.cs401.common.FileNode;
 import csueb.cs401.common.Message;
+import csueb.cs401.persist.Log;
 
 /**
  * @author michaelvu
@@ -31,7 +32,7 @@ public class Server {
 	private ServerSocket socket;
 	private int port;
 	
-	private Logger LOGGER;
+	private Log LOGGER;
 	
 	private HashMap<String, ClientHandler> activeAuthClients = new HashMap<>(); // userid to user
 	private HashMap<String, List<FileNode>> fileDistribution = new HashMap<>(); // file name to FileNode

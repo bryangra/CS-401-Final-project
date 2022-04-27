@@ -1,7 +1,6 @@
 package csueb.cs401.common;
 
 import java.util.Date;
-import java.util.UUID;
 
 public class Event {
 
@@ -97,5 +96,20 @@ public class Event {
 		this.userID = newUser;
 		
 		return true;
+	}
+	
+	
+	//******************************************************
+	// overwrites and event event information
+	// Input: none 
+	// Output: boolean true if info was cleared, date to time
+	// of clearing
+	//*******************************************************
+	public string getDate() {
+		String date = new String();
+		
+		date = Integer.toString(eventDate.)
+		
+		return date;
 	}
 }
