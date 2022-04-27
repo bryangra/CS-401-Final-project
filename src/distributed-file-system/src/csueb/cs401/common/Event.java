@@ -105,10 +105,8 @@ public class Event {
 	// Output: boolean true if info was cleared, date to time
 	// of clearing
 	//*******************************************************
-	public string getDate() {
+	public String getDate() {
 		String date = new String();
-		
-		date = Integer.toString(eventDate.)
 		
 		return date;
 	}
