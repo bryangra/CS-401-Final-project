@@ -134,6 +134,22 @@ import java.util.Scanner;
 		}
 		
 		
+		//******************************************************
+		// Author: Bryan Graves
+		// Finds events in the log within the range
+		// Input: string start date and end date null null 
+		// retrieves all events
+		// Output: string all events between those dates
+		//*******************************************************
+		public Integer findStart(String startDate){
+			int index = 0;
+			
+			//if
+			
+			return 1;
+		}
+		
+		
 		
 		//******************************************************
 		// Author: Bryan Graves
@@ -144,10 +160,17 @@ import java.util.Scanner;
 		//*******************************************************
 		public String findEvents(String startDate, String endDate) {
 			String foundEvents = new String();
-			for(int i=0; i<this.events.size();i++) {
-			//	if(this.events.get(i).) {
-			//		Date
-			//	}
+			int startIndex = 0;
+			int endIndex = 0;
+			
+			startDate = null;
+			endDate = null;
+			
+			if(startDate == null) startIndex = 0;
+			if(endDate == null) endIndex = this.events.size();
+		
+			for(int i=startIndex; i < endIndex;i++) {
+			foundEvents = foundEvents + i + ": " + events.get(i).getEvent() + "\n";
 			}
 			
 			return foundEvents;
