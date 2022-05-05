@@ -23,7 +23,6 @@ public class Event {
 	
 	
 	
-	
 	//******************************************************
 	// Creates an event with the description and user given
 	// Input: string description of event and string userID 
@@ -75,6 +74,7 @@ public class Event {
 	}
 	
 	
+	
 	//******************************************************
 	// Returns event in string format
 	// Input: none 
@@ -120,6 +120,7 @@ public class Event {
 		
 		return true;
 	}
+	
 	
 	
 	//******************************************************
